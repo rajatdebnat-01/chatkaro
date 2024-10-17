@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat-Karo</title>
+  <script  src="http://localhost:8000/socket.io/socket.io.js"></script>
+ 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <div class="user-info">
+        <div class="user-name">Chat Karo</div>
+      </div>
+      <div class="status">Talk to Everyone</div>
+    </div>
+
+    <div class="chat-body" id="chatBody">
+      
+      <!-- Add more messages here -->
+    </div>
+<form action="" id="send-container">
+    <div class="chat-footer">
+      <input type="text" name="messageinp" placeholder="Type a message" class="message-input">
+      <button class="send-btn" type="submit">Send</button>
+    </div>
+</form>
+  </div>
+  
+  <script  src="script.js"></script>
+</body>
+</html>
